@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6555" started-at="2021-10-28T12:14:40 UTC" finished-at="2021-10-28T12:14:47 UTC">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="2836" started-at="2021-10-28T12:14:40 UTC" finished-at="2021-10-28T12:14:43 UTC">
+      <class name="demoWithTestNG.CrossBrowserTest">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:demoWithTestNG.CrossBrowserTest@69a3d1d]" name="launchApplication" is-config="true" duration-ms="2455" started-at="2021-10-28T12:14:40 UTC" finished-at="2021-10-28T12:14:43 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="titleVerification()[pri:0, instance:demoWithTestNG.CrossBrowserTest@69a3d1d]" name="titleVerification" duration-ms="179" started-at="2021-10-28T12:14:43 UTC" finished-at="2021-10-28T12:14:43 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method status="PASS" signature="verifyText()[pri:1, instance:demoWithTestNG.CrossBrowserTest@69a3d1d]" name="verifyText" duration-ms="39" started-at="2021-10-28T12:14:43 UTC" finished-at="2021-10-28T12:14:43 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="verifySignInBtnIsEnabled()[pri:2, instance:demoWithTestNG.CrossBrowserTest@69a3d1d]" name="verifySignInBtnIsEnabled" duration-ms="22" started-at="2021-10-28T12:14:43 UTC" depends-on-methods="demoWithTestNG.CrossBrowserTest.titleVerification" finished-at="2021-10-28T12:14:43 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInBtnIsEnabled -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demoWithTestNG.CrossBrowserTest@69a3d1d]" name="closeBrowser" is-config="true" duration-ms="69" started-at="2021-10-28T12:14:43 UTC" finished-at="2021-10-28T12:14:43 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demoWithTestNG.CrossBrowserTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3704" started-at="2021-10-28T12:14:43 UTC" finished-at="2021-10-28T12:14:47 UTC">
+      <class name="demoWithTestNG.CrossBrowserTest">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:demoWithTestNG.CrossBrowserTest@46daef40]" name="launchApplication" is-config="true" duration-ms="2923" started-at="2021-10-28T12:14:43 UTC" finished-at="2021-10-28T12:14:46 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="titleVerification()[pri:0, instance:demoWithTestNG.CrossBrowserTest@46daef40]" name="titleVerification" duration-ms="8" started-at="2021-10-28T12:14:46 UTC" finished-at="2021-10-28T12:14:46 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method status="PASS" signature="verifyText()[pri:1, instance:demoWithTestNG.CrossBrowserTest@46daef40]" name="verifyText" duration-ms="112" started-at="2021-10-28T12:14:46 UTC" finished-at="2021-10-28T12:14:46 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="verifySignInBtnIsEnabled()[pri:2, instance:demoWithTestNG.CrossBrowserTest@46daef40]" name="verifySignInBtnIsEnabled" duration-ms="74" started-at="2021-10-28T12:14:46 UTC" depends-on-methods="demoWithTestNG.CrossBrowserTest.titleVerification" finished-at="2021-10-28T12:14:46 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInBtnIsEnabled -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demoWithTestNG.CrossBrowserTest@46daef40]" name="closeBrowser" is-config="true" duration-ms="575" started-at="2021-10-28T12:14:46 UTC" finished-at="2021-10-28T12:14:47 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demoWithTestNG.CrossBrowserTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
